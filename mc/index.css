@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(255, 0, 0);
+  margin: 0 auto;
+}
+.cabecalho {
+  background-color: rgb(247, 234, 0);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.comida {
+  margin: 10px;
+    width: 350px;
+  height: 450px;
+  border: solid 8px black;
+  border-radius: 20px;
+  background-color: white;
+}
+.foto {
+  height: 45px;
+  background-color: rgb(255, 0, 0);
+}
+.video {
+  background-color: rgb(255, 0, 0);
+  display: none;
+}
+.macarrão {
+  width: 75%;
+  background-color: rgb(255, 0, 0);
+  height: 40px;
+}
+.pesquisa {
+  width:100%;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgb(255, 0, 0);
+}
+.pizza {
+  width: 500px;
+  height: 600px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px black solid;
+  border-radius: 25px;
+  margin: 20px;
+}
+.centro{
+  display: flex;
+    justify-content: center;
+}
+.milk {
+  width: 350px;
+}
+.banner {
+  width: 100%;
+}
+.logo {
+  height: 100px;
+}
+.pessoal {
+  width: 450px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+.um {
+  font-size: 20px;
+  height: 30px;
+}
+.dois {
+  background-color: rgb(255, 0, 0);
+  height: 120px;
+  width: 200px;
+  font-size: 20px;
+  margin: 10px;
+}
+.tres {
+  width: 450px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .produtos {
+    flex-direction: row;
+  }
+  .foto {
+    height: 110px;
+  }
+  .video{
+    display: block;
+  }
+}
